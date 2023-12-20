@@ -1,6 +1,7 @@
 class UlList extends HTMLUListElement {
   constructor() {
     self = super();
+    // super的返回值就是DOM元素本身
     console.log(self);
   }
 

@@ -48,8 +48,13 @@ const update = document.querySelector('.update')
 const remove = document.querySelector('.remove')
 let square = ''
 
-update.disabled = true;
-remove.disabled = true;
+if (update !== null) {
+  update.disabled = true;
+}
+
+if (remove !== null) {
+  remove.disabled = true;
+}
 
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);

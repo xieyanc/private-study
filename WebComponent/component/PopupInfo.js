@@ -5,6 +5,7 @@ class Popupinfo extends HTMLElement {
 
   connectedCallback() {
     console.log("Popupinfo自定义元素添加至页面。");
+    // 开启shadowDom
     const shadow = this.attachShadow({ mode: 'open' })
 
     const container = document.createElement('div')
