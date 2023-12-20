@@ -34,6 +34,7 @@ const host = document.querySelector('.host')
 console.log(host);
 
 upper.onclick = function () {
+  // 使用shadowRoot获取影子DOM中的元素
   const spans = Array.from(host.shadowRoot.querySelectorAll('span'))
   for (const item of spans) {
     item.textContent = item.textContent.toUpperCase()
