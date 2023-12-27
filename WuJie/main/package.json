@@ -13,7 +13,9 @@
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "wujie": "^1.0.22",
+    "wujie-vue3": "^1.0.22"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
